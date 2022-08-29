@@ -30,64 +30,80 @@
 	</div>
   
   </section>
-   <table>
-	 <tr>
-		<th>ATENCIÓN A LOS DETALLES</th>
-		<th>PUNTUALIDAD</th>
-		<th>PLANIFICACIÓN</th>
-		<th>TECNOLOGÍA MODERNA</th>
-	</tr>
-	<tr>
-    	<td>Nos adentramos en todos los detalles y <br/>
-		procesos de su negocio, para así <br/>
-		desarrollar una solución a su medida.</td>
-		
-		<td>Con nosotros, usted puede sentirse <br/>
-		seguro y protegido. Un principio <br/>
-		importante de la empresa: respetar su <br/>
-		tiempo y respetar los plazos acordados.</td>
-		
-		<td>Usted podrá observar y participar en <br/> 
-		cada fase del desarrollo y aplicación de <br/>
-		soluciones.</td>
-		
-		<td>Usamos herramientas innovadoras para <br/>
+  
+  <dl>
+    <!--Inicialmente creé una tabla, pero lo cambié por una lista descriptiva (etiqueta <dl>) 
+        para tratar de cumplir el criterio B15, me imagino que la alineación horizontal se hará con CSS-->
+	 	<dt><b>ATENCIÓN A LOS DETALLES</b></dt>
+        <dd>Nos adentramos en todos los detalles y <br/>
+            procesos de su negocio, para así <br/>
+            desarrollar una solución a su medida.</dd>
+
+		<dt><b>PUNTUALIDAD</b></dt>
+        <dd>Con nosotros, usted puede sentirse <br/>
+            seguro y protegido. Un principio <br/>
+            importante de la empresa: respetar su <br/>
+            tiempo y respetar los plazos acordados.</dd>
+
+		<dt><b>PLANIFICACIÓN</b></dt>
+        <dd>Usted podrá observar y participar en <br/> 
+            cada fase del desarrollo y aplicación de <br/>
+            soluciones.</dd>
+
+		<dt><b>TECNOLOGÍA MODERNA</b></dt>
+		<dd>Usamos herramientas innovadoras para <br/>
 		resolver las tareas asignadas. Es hora <br/>
-		de simplificar los procesos laborales.</td>
-	</tr>
-</table>
+		de simplificar los procesos laborales.</dd>
+	</dl>
+
   <section>
 	<h2>A qué nos dedicamos</h2>
 	<img src="images/flowdiagramI.jpg" alt="Diagrama de flujo"/>
     <img src="images/movileappII.jpg" alt="Aplicación movil"/>
 	<img src="images/colortabletIII.jpg" alt="Paleta de colores en la tablet"/>
   </section>
-  <section>
-	
+  
+<section>
   <h2>Nuestro Equipo</h2>
-    <table>
-		<tr>
-		<td><img src="images/AndresCuboI.jpg" alt="Foto de perfil de Andrés Cubo"/></td>
-		<td><img src="images/CarlaPalaciosII.jpg" alt="Foto de perfil de Carla Palacio"/></td>
-		<td><img src="images/MarioDoradoIII.jpg" alt="Foto de perfil de Mario Dorado"/></td>
-		<td><img src="images/PabloMijangosIV.jpg" alt="Foto de perfil de Pablo Mijangos"/></td>
-	    </tr>
+  <!--En esta sección también creé una tabla al principio pero lo cambié para ajustarlo
+    lo más posible con el criterio B15-->
+  
+ <section>
+	<section class="img-profile">
+		<img src="images/AndresCuboI.jpg" alt="Foto de perfil de Andrés Cubo"/>
+	</section>
+	<section>
+		<p><b>Andrés Cubo</b> <br/>
+			Diseñador de Productos</td>
+	</section>
+	
+	<section class="img-profile">
+		<img src="images/CarlaPalaciosII.jpg" alt="Foto de perfil de Carla Palacios"/>
+	</section>
+	<section>
+		<p><b>Carla Palacios</b> <br/>
+			Desarrolladora Frontend</p>>
+	</section>
+	
+	<section class="img-profile">
+		<img src="images/MarioDoradoIII.jpg"alt="Foto de perfil de Mario Dorado"/>
+	</section>
+	<section>
+		<p><b>Mario Dorado</b> <br/>
+			Marketing</p>
+    </section>
 
-		<tr>
-			<td><b>Andrés Cubo</b></td>
-			<td><b>Carla Palacios</b></td>
-			<td><b>Mario Dorado</b></td>
-			<td><b>Pablo Mijangos</b></td>
-		</tr>
-		<tr>
-			<td>Diseñador de Productos</td>
-			<td>Desarrolladora Frontend</td>
-			<td>Marketing</td>
-			<td>Diseñador IU</td>
-		</tr>
-	</table>
-  </section>
+	<section class="img-profile">
+		<img src="images/PabloMijangosIV.jpg" alt="Foto de perfil de Pablo Mijangos"/>
+	</section>
+	<section>
+		<p><b>Pablo Mijangos</b> <br/>
+			Diseñador IU</p>
+	</section>
+ </section>
+</section>
   </main>
+ 
   <footer> 
 	<h2>
 	 <a href="#">WebStudio</a>
